@@ -233,14 +233,6 @@ class RestController extends \CI_Controller
     private $format;
 
     /**
-     * @var Http Status Code
-     */
-    private $http_status = [
-        'METHOD_NOT_ALLOWED' => 405,
-        'UNAUTHORIZED' => 401
-    ];
-
-    /**
      * @var bool
      */
     protected $auth_override;
